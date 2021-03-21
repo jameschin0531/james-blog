@@ -31,6 +31,12 @@ module.exports = {
         overlayDrafts: !isProd,
         watchMode: !isProd
       }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: '266320957'
+      }
     }
     /* {
       // Create posts from markdown files
